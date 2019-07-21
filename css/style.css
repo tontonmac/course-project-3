@@ -24,9 +24,9 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, 
+h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica,Arial,sans-serif;
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -106,9 +106,11 @@ li {
 }
 
 .intro {
-  font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6; 
-  color: initial; /* inherite the initial value*/ 
+  font-size: 1.25em;
+  /* 20px/16px */
+  line-height: 1.6;
+  color: initial;
+  /* inherite the initial value*/
 }
 
 .primary-content,
@@ -255,6 +257,7 @@ a:active {
   }
 } */
 @media (max-width: 1024px) {
+
   .primary-content,
   .secondary-content {
     width: 90%;
@@ -262,6 +265,7 @@ a:active {
 }
 
 @media (max-width: 768px) {
+
   .primary-content,
   .secondary-content {
     width: 100%;
